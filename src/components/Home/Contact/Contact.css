@@ -1,0 +1,20 @@
+.contact-container {
+  margin-top: 125px;
+  height: 600px;
+  position: relative;
+  background-image: url("../../../images/bgChair.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.contact-container::after {
+  height: 600px;
+  content: " ";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  right: 0;
+  background-color: #3a4256;
+  z-index: -1;
+  opacity: 0.8;
+}

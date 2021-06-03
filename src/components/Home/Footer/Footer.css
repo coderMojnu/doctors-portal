@@ -1,0 +1,10 @@
+.footer-bg {
+    background-image: url('../../../images/bgChair.png');
+    background-size: cover;
+}
+.highlight-color {
+    color: #1CC7C1;
+}
+.footer-bg ul li {
+    list-style-type: none;
+}
